@@ -1,0 +1,18 @@
+.image-s{
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    margin: auto;
+}
+
+.card-s{
+    height: 800px !important;
+}
+
+.card-title-s{
+    font-size: 14px;
+}
+
+.card-text-s{
+    font-size: 12px;
+}
