@@ -38,7 +38,7 @@ function ProductsList() {
           onClick={() => {
             getProducts();
           }}
-          className="btn btn-info"
+          className="btn btn-sm btn-info mg-10"
         >
           All
         </button>&nbsp;
@@ -50,7 +50,7 @@ function ProductsList() {
               onClick={() => {
                 getProductInCategory(cat);
               }}
-              className="btn btn-info"
+              className="btn btn-sm btn-info mg-10"
             >
               {cat}
             </button>&nbsp;
@@ -63,7 +63,7 @@ function ProductsList() {
         <div className="row">
           {products.map((product) => {
             return (
-              <div className="col-sm-3 row-s" key={product.id}>
+              <div className="col-sm-3 mg-10" key={product.id}>
                 <Product product={product} showButton={true} />
               </div>
             );

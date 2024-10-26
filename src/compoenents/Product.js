@@ -13,7 +13,7 @@ function Product(props) {
           <p className="card-text card-text-s">{product.description}</p>
           <p> Price: {product.price}$</p>
           {showButton && (
-            <Link className="btn btn-primary" to={`/product/${product.id}`}>
+            <Link className="btn btn-sm btn-primary" to={`/product/${product.id}`}>
               Details
             </Link>
           )}
