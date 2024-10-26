@@ -2,7 +2,7 @@ import React from "react";
 
 class WelcomeClass extends React.Component {
     constructor(props) {
-        console.log("- constructor fun...");
+        console.log("1- constructor fun...");
         super(props);
         this.state = {
             firstName: "Mohamed",
@@ -16,7 +16,7 @@ class WelcomeClass extends React.Component {
     }
 
     render(){
-        console.log("- render fun...");
+        console.log("2- render fun...");
         return (
             <>
             <h3> - Your age is: <u>{this.props.age}</u> Years old</h3>
@@ -29,8 +29,9 @@ class WelcomeClass extends React.Component {
         )
     }
 
+    // componentDidMount... => it called after the page rendered for the first time
     componentDidMount(){
-        console.log("- componentDidMount fun...");
+        console.log("3- componentDidMount fun...");
     }
 }
 
